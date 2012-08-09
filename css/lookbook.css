@@ -1,0 +1,203 @@
+* { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+#content {
+    position: relative;
+    left: -28px;
+    width: 986px !important;
+    *width: 1000px !important;
+}
+
+#header-bot {
+    display:none !important;
+}
+
+#lb-container {
+    width:986px;
+    height:680px;
+    position:relative;
+}
+
+#lb-jcarousel {
+    position: relative;
+    overflow: hidden;
+    width:986px;
+    height:635px;
+    border-bottom:1px solid #eaeaea;
+}
+
+#lb-jcarousel ul {
+    width: 20000em;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#lb-jcarousel li {
+    float: left;
+    width:986px;
+    height:635px;
+    color:#000;
+}
+.lb-jcarousel-prev, .lb-jcarousel-next {
+    display:none;
+}
+
+.lb-jcarousel-prev a, .lb-jcarousel-next a {
+    position:absolute;
+    bottom:310px;
+    width:37px;
+    height:37px;
+    text-indent:99999px;
+    overflow:hidden;
+}
+
+.lb-jcarousel-prev a {
+    display:block;
+    left:5px;
+    background:url(/lookbook/imgs/scroll_btn.png) 0px 0px no-repeat;
+}
+.lb-jcarousel-prev a:hover {
+    background-position:0px -37px;
+}
+.lb-jcarousel-next a {
+    display:block;
+    right:5px;
+    background:url(/lookbook/imgs/scroll_btn.png) -37px 0px no-repeat;
+}
+.lb-jcarousel-next a:hover {
+    background-position:-37px -37px;
+}
+
+
+.lb-page-container {
+    width:986px;
+    height:615px;
+    position:relative;
+}
+.lb-copy-container {
+    min-width:340px;
+    position:absolute;
+    top:420px;
+    left:40px;
+    background:url(/lookbook/imgs/white_85.png) repeat;
+    padding: 5px 10px;
+    text-align:left;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(255,255,255, .8);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .45);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .45);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .45);
+}
+.lb-copy-container h2 {
+    font-size: 55px;
+    font-family: SketchBlock-Light;
+}
+.lb-copy-container p, .lb-popup-copy p {
+    font-size:12px;
+    line-height:18px;
+    margin:0 0 10px 0;
+}
+.lb-popup-btns {
+    display:block;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:40px;
+    height:40px;
+    overflow:hidden;
+    z-index:+1;
+}
+.lb-popup-content {
+    position:absolute;
+    top:0px;
+    left:0px;
+    text-align:left;
+    width:986px;
+    height:635px;
+}
+.lb-popup-content li {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:986px;
+    height:635px;
+    background: url(/lookbook/imgs/black_40.png) repeat;
+    display:none;
+}
+.lb-popup-content li img {
+    margin:160px 240px 0 240px;
+}
+.lb-popup-content li .lb-popup-copy {
+    position:absolute;
+    top:165px;
+    left:509px;
+    width:267px;
+    padding: 20px;
+    color:#4d4d4f;
+}
+.lb-popup-copy h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.lb-popup-content .close {
+    display:block;
+    position:absolute;
+    top:150px;
+    left:750px;
+    width:40px;
+    height:40px;
+    overflow:hidden;
+    z-index:999;
+}
+.lb-nav {
+    height:40px;
+    overflow:hidden;
+    background:#333;
+    color:#fff;
+    line-height: 40px;
+}
+.toc {
+    float:left;
+    font-size:11px;
+    width: 740px;
+    margin-left: 20px;
+}
+.toc h3 {
+    font-weight:bold;
+    float:left;
+    margin-right:10px;
+}
+.toc ol li {
+    float:left;
+    margin-right:5px;
+    cursor:pointer;
+}
+.toc ol li:hover, .toc ol li.selected {
+    color:#34b6e4;
+}
+
+.social {
+    float:right;
+    width:200px;
+    margin-top: 3px;
+}
+ol.brand-social-container li {
+    float:left;
+    margin-right: 10px;
+    width:46px;
+    overflow:hidden;
+}

@@ -1,0 +1,115 @@
+<style>
+    #dorm .lb-copy-container {width:320px;}
+    #dorm .lb-popup-btns a {display:block; width:100%; height:100%; background:url(/lookbook/findyourgroove/imgs/buttons.png) 0 0 no-repeat; text-indent:99999px;}
+    #dorm .lb-popup-btns a:hover {background-position: 0 -40px;}
+    #dorm .lb-popup-copy a {color:#008bbe;}
+    #dorm .close a {display:block; width:100%; height:100%; background:url(/lookbook/findyourgroove/imgs/buttons.png) -40px 0 no-repeat; text-indent:99999px;}
+    #dorm .close a:hover {background-position:-40px -40px;}
+</style>
+
+<script>
+    $(document).ready(function(){
+        $('#dorm .lb-popup-content li').each(function(i){
+            $(this).parent().before('<div class="lb-popup-btns" style="top:'+$(this).attr('popup-top')+'px; left:'+$(this).attr('popup-left')+'px;"><a href="#" onclick="javascript:return false;" popup-idx="' + i + '">Click</a></div>');
+        });
+        $('.close a').live('click', function(){
+            var tmpIdx = $('li').index($(this).parent().parent())
+            console.log("Closed:" + tmpIdx)
+            $(this).parent().parent().fadeOut(function(){
+                $('.lb-popup-btns a').fadeIn();
+                $('.lb-copy-container').fadeIn();
+            });
+        });
+        $('.lb-popup-btns a').live('mousedown', function(){
+            var tmpIdx = $(this).attr('popup-idx')
+            
+            $('.lb-copy-container').fadeOut();
+            
+            $('.lb-popup-btns a').fadeOut(function(){
+                $('.lb-popup-content li').eq(tmpIdx).fadeIn();
+            })
+        });
+    });
+</script>
+
+<div id="dorm" class="lb-page-container">
+    <img class="lb-pinterest-img" src="/lookbook/findyourgroove/imgs/dorm_room_bg.jpg" width="100%" alt="Dorm Room">
+    <div class="lb-copy-container">
+        <h2>Dorm Room</h2>
+        <p>With classes just around the corner, its time to make your new home away from home a little more cozy. Get creative in your space with these easy & inexpensive upgrades. And be sure to check out our great selection of baskets & storage solutions to help keep things organized.</p>
+    </div>
+    <ol class="lb-popup-content">
+        <li popup-top="300" popup-left="580">
+            <img src="/lookbook/findyourgroove/imgs/dorm_room_01.png" alt="T-shirt Accents Pillows">
+            <div class="close"><a href="#" onclick="javascript:return false;">close</a></div>
+            <div class="lb-popup-copy">
+                <h3>T-shirt Accents Pillows</h3>
+                <p>Add a personal touch with throw pillows created from ordinary t-shirts - no sewing required! Whether you create your own designs or use existing ones, this is truly a simple way to let your style show.</p>
+                <a href="/projects/e07164">Learn More</a>
+            </div>
+        </li>
+        <li popup-top="165" popup-left="470">
+            <img src="/lookbook/findyourgroove/imgs/dorm_room_02.png" alt="Small size, big impact.">
+            <div class="close"><a href="#" onclick="javascript:return false;">close</a></div>
+            <div class="lb-popup-copy">
+                <h3>Small size, big impact.</h3>
+                <p>Ready for some eye-popping artwork for your walls? Use mini canvases to create small works of art that look as good together as they do apart!</p>
+                <a href="/products/26923">Learn More</a>
+            </div>
+        </li>
+        <li popup-top="60" popup-left="830">
+            <img src="/lookbook/findyourgroove/imgs/dorm_room_03.png" alt="Turn Snapshots into Art">
+            <div class="close"><a href="#" onclick="javascript:return false;">close</a></div>
+            <div class="lb-popup-copy">
+                <h3>Turn Snapshots into Art</h3>
+                <p>Create colorful, one-of-a-kind works of art with toner-based copies of your favorite photos, some paint and packing tape.</p>
+                <a href="/projects/27653">Learn More</a>
+            </div>
+        </li>
+        <li popup-top="115" popup-left="600">
+            <img src="/lookbook/findyourgroove/imgs/dorm_room_04.png" alt="Frame Jewelry Display">
+            <div class="close"><a href="#" onclick="javascript:return false;">close</a></div>
+            <div class="lb-popup-copy">
+                <h3>Frame Jewelry Display</h3>
+                <p>Repurpose an open back frame into a unique space saving jewelry holder. Paint and embellish to match the theme or feel of your room.</p>
+                <a href="/videos/KKJD5Vm3157">Learn More</a>
+            </div>
+        </li>
+        <li popup-top="475" popup-left="890">
+            <img src="/lookbook/findyourgroove/imgs/dorm_room_05.png" alt="Step Out in Style">
+            <div class="close"><a href="#" onclick="javascript:return false;">close</a></div>
+            <div class="lb-popup-copy">
+                <h3>Step Out in Style</h3>
+                <p>Take your kicks from ordinary to extraordinary with fabric paint, stencils & embellishments.</p>
+                <a href="/projects/30107">Learn More</a>
+            </div>
+        </li>
+        <li popup-top="550" popup-left="460">
+            <img src="/lookbook/findyourgroove/imgs/dorm_room_06.png" alt="Duck Tape¨ Rug">
+            <div class="close"><a href="#" onclick="javascript:return false;">close</a></div>
+            <div class="lb-popup-copy">
+                <h3>Duck Tape&reg; Rug</h3>
+                <p>Make this stylish rug with only a piece of poster board, some yarn and your favorite duck tape.</p>
+                <a href="/projects/31310">Learn More</a>
+            </div>
+        </li>
+        <li popup-top="240" popup-left="690">
+            <img src="/lookbook/findyourgroove/imgs/dorm_room_07.png" alt="Embellished Bedding">
+            <div class="close"><a href="#" onclick="javascript:return false;">close</a></div>
+            <div class="lb-popup-copy">
+                <h3>Embellished Bedding</h3>
+                <p>With fabric paint and a little imagination, you can turn plain comforters & sheets into stylish new ensembles.</p>
+                <a href="/category/products-generalcrafts-apparelcrafting-fabricpaint">Learn More</a>
+            </div>
+        </li>
+        <li popup-top="190" popup-left="890">
+            <img src="/lookbook/findyourgroove/imgs/dorm_room_08.png" alt="Illuminated Design">
+            <div class="close"><a href="#" onclick="javascript:return false;">close</a></div>
+            <div class="lb-popup-copy">
+                <h3>Illuminated Design</h3>
+                <p>Basic doesn't have to mean boring. Transform a plain lampshade with some trim, tissue paper and a little imagination.</p>
+                <a href="/projects/30768">Learn More</a>
+            </div>
+        </li>
+    </ol>
+</div>

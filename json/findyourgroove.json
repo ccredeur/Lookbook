@@ -1,0 +1,120 @@
+{
+  "f_name" : "findyourgroove.json",
+  "name" : "findyourgroove",
+  "sections" : [
+    {
+      "name" : "Cover",
+      "pages" : [
+        {
+          "f_name" : "cover",
+          "images" : [
+            ""
+          ],
+          "name" : "Cover"
+        }
+      ],
+      "title" : "Cover"
+    },
+    {
+      "name" : "toc",
+      "pages" : [
+        {
+          "f_name" : "toc",
+          "images" : [
+            ""
+          ],
+          "name" : "Introduction/Table of Contents"
+        }
+      ],
+      "title" : "Table of Contents"
+    },
+    {
+      "name" : "b2s",
+      "pages" : [
+        {
+          "f_name" : "b2s",
+          "images" : [
+            ""
+          ],
+          "name" : "Back to School"
+        }
+      ],
+      "title" : "Back to School"
+    },
+    {
+      "name" : "youngadult",
+      "pages" : [
+        {
+          "f_name" : "wemadethis",
+          "images" : [
+            ""
+          ],
+          "name" : "We made this"
+        },
+        {
+          "f_name" : "nerdychic",
+          "images" : [
+            ""
+          ],
+          "name" : "Nerdy Chic"
+        },
+        {
+          "f_name" : "indiegirl",
+          "images" : [
+            ""
+          ],
+          "name" : "Indie Girl"
+        },
+        {
+          "f_name" : "glamgirl",
+          "images" : [
+            ""
+          ],
+          "name" : "Glam Girl"
+        }
+      ],
+      "title" : "Young Adult (Seventeen) experience"
+    },
+    {
+      "name" : "prodprojshowcase",
+      "pages" : [
+        {
+          "f_name" : "dormroom",
+          "images" : [
+            ""
+          ],
+          "name" : "Dorm Room"
+        },
+        {
+          "f_name" : "storage",
+          "images" : [
+            ""
+          ],
+          "name" : "Storage Solution"
+        },
+        {
+          "f_name" : "craftglasspaint",
+          "images" : [
+            ""
+          ],
+          "name" : "Craft & Glass Paint"
+        }
+      ],
+      "title" : "Product/Project Showcase"
+    },
+    {
+      "name" : "sneakpeak",
+      "pages" : [
+        {
+          "f_name" : "makeyourjoy",
+          "images" : [
+            ""
+          ],
+          "name" : "Back to School"
+        }
+      ],
+      "title" : "Sneak Peak"
+    }
+  ],
+  "title" : "Find Your Groov"
+}

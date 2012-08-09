@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'SketchBlock-Light';
+    src: url('../../fonts/sketch_block_0_0.eot?$staticlink$');
+    src: url('../../fonts/sketch_block_0_0.eot?&$staticlink$') format('embedded-opentype'),
+    url('../../fonts/sketch_block_0_0.woff?$staticlink$') format('woff'),
+    url('../../fonts/sketch_block_0_0.ttf?$staticlink$') format('truetype');
+}
+  
+@font-face {
+    font-family: 'SketchBlock-Bold';
+    src: url('../../fonts/sketch_block_1_0.eot?$staticlink$');
+    src: url('../../fonts/sketch_block_1_0.eot?$staticlink$') format('embedded-opentype'),
+    url('../../fonts/sketch_block_1_0.woff?$staticlink$') format('woff'),
+    url('../../fonts/sketch_block_1_0.ttf?$staticlink$') format('truetype');
+}
+
+@font-face {
+    font-family: 'MuseoSlab500';
+    src: url('../../fonts/Museo_Slab_500-webfont.eot?$staticlink$');
+    src: url('../../fonts/Museo_Slab_500-webfont.eot?$staticlink$') format('embedded-opentype'),
+         url('../../fonts/Museo_Slab_500-webfont.woff?$staticlink$') format('woff'),
+         url('../../fonts/Museo_Slab_500-webfont.ttf?$staticlink$') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSlab500Italic';
+    src: url('../../fonts/Museo_Slab_500italic-webfont.eot?$staticlink$');
+    src: url('../../fonts/Museo_Slab_500italic-webfont.eot?$staticlink$') format('embedded-opentype'),
+         url('../../fonts/Museo_Slab_500italic-webfont.woff?$staticlink$') format('woff'),
+         url('../../fonts/Museo_Slab_500italic-webfont.ttf?$staticlink$') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
